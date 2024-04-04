@@ -1,0 +1,65 @@
+/* HTML code for food portal app*\
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Portal</title>
+    <!-- Include CSS files for styling -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Food Portal</h1>
+        <!-- Navigation menu -->
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Recipes</a></li>
+                <li><a href="#">Restaurants</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <!-- Featured recipes -->
+        <section id="featured-recipes">
+            <h2>Featured Recipes</h2>
+            <div class="recipe-card">
+                <img src="recipe1.jpg" alt="Recipe 1">
+                <h3>Recipe 1</h3>
+                <p>Description of Recipe 1</p>
+            </div>
+            <div class="recipe-card">
+                <img src="recipe2.jpg" alt="Recipe 2">
+                <h3>Recipe 2</h3>
+                <p>Description of Recipe 2</p>
+            </div>
+            <!-- More recipe cards can be added here -->
+        </section>
+        
+        <!-- Nearby restaurants -->
+        <section id="nearby-restaurants">
+            <h2>Nearby Restaurants</h2>
+            <div class="restaurant-card">
+                <img src="restaurant1.jpg" alt="Restaurant 1">
+                <h3>Restaurant 1</h3>
+                <p>Description of Restaurant 1</p>
+            </div>
+            <div class="restaurant-card">
+                <img src="restaurant2.jpg" alt="Restaurant 2">
+                <h3>Restaurant 2</h3>
+                <p>Description of Restaurant 2</p>
+            </div>
+            <!-- More restaurant cards can be added here -->
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Food Portal. All rights reserved.</p>
+    </footer>
+</body>
+</html>
